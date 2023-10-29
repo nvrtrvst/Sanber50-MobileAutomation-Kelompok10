@@ -1,0 +1,3 @@
+locatorSearchMenu: com.example.myapplication:id/search_flight
+locatorSearchBar: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+locatorButtonSearch : //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]

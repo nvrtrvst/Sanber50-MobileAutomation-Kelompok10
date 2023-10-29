@@ -16,6 +16,7 @@ ${WRONGPASSWORD}         salahcuy
 ${WRONGUSERNAME}         mimin@ngendigital.com
 ${EMPTY}                 
 ${INVALIDMESSAGE}        Invalid username/password
+${CODE_BOOKING}          DA935
 
 
 
