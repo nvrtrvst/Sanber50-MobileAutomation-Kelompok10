@@ -1,0 +1,8 @@
+bookButton: //android.widget.Button[@resource-id="com.example.myapplication:id/book"]
+locationCity: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
+locationCityDetail: //android.widget.Spinner
+
+
+
+
+
