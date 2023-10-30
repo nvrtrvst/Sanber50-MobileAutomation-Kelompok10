@@ -22,3 +22,14 @@ Verify Success Search - Valid Code Booking
     Click search menu
     Input code booking
     Click search button
+
+Verify Failed Search - Empty Code Booking
+    Open Flight Application
+    Click Log In Button
+    Verify Login Page Appears
+    Input Username Login Page
+    Input Password Login Page
+    Click Sign In Button
+    Click search menu
+    Empty code booking
+    Click search button

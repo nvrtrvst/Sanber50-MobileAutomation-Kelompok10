@@ -20,6 +20,10 @@ Input code booking
     sleep    5s
     Input text               ${locatorSearchBar}                    ${CODE_BOOKING}
 
+Empty code booking
+    sleep    5s
+    Input text               ${locatorSearchBar}                    ${EMPTY}
+
 Click search button
     sleep    5s
     Click Element            ${locatorButtonSearch}
