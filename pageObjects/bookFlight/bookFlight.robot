@@ -8,35 +8,52 @@ Click Book Button
     Click Element                        ${bookButton}
 
 Click Location City
-    Sleep    3s
-    Click Element                        //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
-    sleep    3s
-    Click Element                        //android.widget.TextView[@resource-id="android:id/text1" and @text="Chicago"]
+    Sleep    3s                          
+    Click Element                        ${locationCity}
+
+    sleep    1s
+    Click Element                        ${locationCityDetail}
 
 Click Destination City
-    Sleep    3s
-    Click Element                        //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
-    Sleep    3s
-    Click Element                        //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
+    Sleep    1s
+    Click Element                        ${destinationCity}
+    Sleep    1s
+    Click Element                        ${destinationCityDetail}
 
 Click Class Flight
-    Sleep    3s
-    Click Element                        //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
-    Sleep    3s
-    Click Element                        //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
+    Sleep    1s
+    Click Element                        ${classFlight}
+    Sleep    1s
+    Click Element                        ${classFlightDetail}
+
+Click Start Date
+    Sleep    1s
+    Click Element                        ${openStartDate}
+    Sleep    2s
+    Click Element                        ${chooseStartDate}
+    Sleep    1s
+    Click Element                        ${buttonOk}
+
+Click End Date 
+    Sleep    1s
+    Click Element                        ${openEndDate}
+    Sleep    2s
+    Click Element                        ${chooseEndDate}
+    Sleep    1s
+    Click Element                        ${buttonOk}
 
 Click Radio Button
-    Sleep    5s
-    Click Element                        //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
+    Sleep    1s
+    Click Element                        ${optionFlight}
  
 Click Book Flight Button
-    sleep    5s
-    Click Element                          //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+    sleep    1s
+    Click Element                        ${bookButtonFlight}
 
 Click Price Flight
-    Sleep    5s
-    Click Element                          //android.widget.Button[@resource-id="com.example.myapplication:id/price1"]
+    Sleep    1s
+    Click Element                        ${buttonPrice}
 
 Confirm Order
-    Sleep    5s
-    Click Element                          //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+    Sleep    1s
+    Click Element                        ${confirmOrder}
